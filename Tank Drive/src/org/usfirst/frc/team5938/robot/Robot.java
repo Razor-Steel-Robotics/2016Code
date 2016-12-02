@@ -28,7 +28,7 @@ public class Robot extends IterativeRobot {
 	SpeedController sprocket;
 	SpeedController flicker;
 
-	public Robot() {
+	public Robot() { //Hello, my name is Justin Yeung
 		myRobot = new RobotDrive(0, 1);
 		myRobot.setExpiration(0.1);
 		xLeftStick = new Joystick(1);
